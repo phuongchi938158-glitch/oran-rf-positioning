@@ -1,0 +1,42 @@
+# Build
+build/
+cmake-cache/
+CMakeFiles/
+CMakeCache.txt
+
+# Binary / object
+*.o
+*.so
+*.a
+*.out
+*.exe
+
+# Debug
+core
+core.*
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Temporary
+*.tmp
+*.swp
+*~
+
+# Large generated datasets
+data/*.csv
+
+# Local model artifacts if needed
+# models/*.pkl
+# models/*.joblib
