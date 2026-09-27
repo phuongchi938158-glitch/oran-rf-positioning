@@ -12,8 +12,8 @@ CMakeCache.txt
 *.exe
 
 # Debug
-core
-core.*
+/core
+/core.*
 *.log
 
 # Python
